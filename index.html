@@ -20,7 +20,7 @@
 
     <title>Le Pain</title>
 </head>
-  <body>
+  <body class="bg-dark">
     <!-- Navbar Component -->
     <!-- navbar-dark is used on navbars with a dark background so the text can be seen. -->
     <!-- sticky-top makes the element stick to the top of the viewport -->
@@ -42,10 +42,63 @@
         <a href="#gallery" class="btn btn-secondary">Voir Les Pain</a>
     </section>
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container mt-4">
+        <!-- Bootstrap Grid -->
+        <div class="row">
 
+          <!-- Bread Card 1 -->
+          <section class="mb-4 col-lg-4">
+            <div class="card">
+              <img src="./Images/Images/baguette.jpg" alt="Five baguettes" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Baguette</h5>
+                <p class="card-text">A baguette is a long, thin loaf of French bread that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust.</p>
+                <a href="https://en.wikipedia.org/wiki/Baguette" class="btn btn-outline-info">Learn More</a>
+                <a href="" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
 
+          <!-- Bread Card 2 -->
+          <section class="mb-4 col-lg-4">
+            <div class="card">
+              <img src="./Images/Images/challah.jpg" alt="Five baguettes" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Challah</h5>
+                <p class="card-text">Challah is a special bread of Ashkenazi Jewish origin, usually braided and typically eaten on ceremonial occasions such as Shabbat and major Jewish holidays (other than Passover)</p>
+                <a href="https://en.wikipedia.org/wiki/Challah" class="btn btn-outline-info">Learn More</a>
+                <a href="" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
 
+          <!-- Bread Card 3 -->
+          <section class="mb-4 col-lg-4">
+            <div class="card">
+              <img src="./Images/Images/sourdough.jpg" alt="Five baguettes" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sourdough</h5>
+                <p class="card-text">Sourdough or sourdough bread is a bread made by the fermentation of dough using wild lactobacillaceae and yeast, which imparts a sour taste and improves keeping qualities.</p>
+                <a href="https://en.wikipedia.org/wiki/Sourdough" class="btn btn-outline-info">Learn More</a>
+                <a href="" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
 
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-secondary">
+      <div class="container">
+        <p>
+          Built using
+          <a href="https://getbootstrap.com" class="text-light">Bootstrap</a>
+        </p>
+      </div>
+    </footer>
 
 
 
